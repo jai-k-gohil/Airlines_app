@@ -47,7 +47,7 @@ Can find [here](http://fonts.google.com/)
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? [please open a new issue](https://github.com/jai-k-gohil/Airlines-app/issues/new).
+Have a bug or a feature request? please open a new issue.
 
 
 

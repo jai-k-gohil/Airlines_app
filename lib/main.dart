@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flight_tickets/theme.dart';
+import 'package:flight_tickets/config.dart';
 import 'package:flight_tickets/screens/home_screen.dart';
 import 'dart:io';
 
@@ -11,13 +12,13 @@ Future<void> main() async {
         name: 'flight-firestore',
         options: Platform.isIOS
         ? const FirebaseOptions(
-            googleAppID: '1:358307475635:ios:3d28f31956c2c0dc',
-            gcmSenderID: '358307475635',
-            databaseURL: 'https://airlines-app-c8770.firebaseio.com/'
+            googleAppID: Config.googleAppID,
+            gcmSenderID: Config.gcmSenderID,
+            databaseURL: Config.databaseURL
         )  : const FirebaseOptions(
             googleAppID: '',
             apiKey: '',
-            databaseURL: 'https://airlines-app-c8770.firebaseio.com/'
+            databaseURL: Config.databaseURL
         )
     );
     
