@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flight_tickets/main.dart';
-import 'package:flight_tickets/theme.dart';
+import 'package:airlines_app/main.dart';
+import 'package:airlines_app/theme.dart';
 
 class CustomAppBar extends StatelessWidget{
     final List<BottomNavigationBarItem> navbarItems = [];

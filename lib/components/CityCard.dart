@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:flight_tickets/model/City.dart';
+import 'package:airlines_app/model/City.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 final formatCurrency = NumberFormat.simpleCurrency();
 class CityCard extends StatelessWidget{

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flight_tickets/main.dart';
+import 'package:airlines_app/main.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flight_tickets/screens/flight_list_screen.dart';
-import 'package:flight_tickets/theme.dart';
-import 'package:flight_tickets/components/CustomAppBar.dart';
-import 'package:flight_tickets/components/CustomShapeClipper.dart';
-import 'package:flight_tickets/components/CustomChoiceChip.dart';
-import 'package:flight_tickets/components/CityCard.dart';
-import 'package:flight_tickets/model/City.dart';
-import 'package:flight_tickets/model/Location.dart';
+import 'package:airlines_app/screens/flight_list_screen.dart';
+import 'package:airlines_app/theme.dart';
+import 'package:airlines_app/components/CustomAppBar.dart';
+import 'package:airlines_app/components/CustomShapeClipper.dart';
+import 'package:airlines_app/components/CustomChoiceChip.dart';
+import 'package:airlines_app/components/CityCard.dart';
+import 'package:airlines_app/model/City.dart';
+import 'package:airlines_app/model/Location.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

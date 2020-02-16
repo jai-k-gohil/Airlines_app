@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flight_tickets/theme.dart';
-import 'package:flight_tickets/main.dart';
-import 'package:flight_tickets/components/CustomShapeClipper.dart';
-import 'package:flight_tickets/model/FlightDetails.dart';
+import 'package:airlines_app/theme.dart';
+import 'package:airlines_app/main.dart';
+import 'package:airlines_app/components/CustomShapeClipper.dart';
+import 'package:airlines_app/model/FlightDetails.dart';
 
 final discountBackgroundColor = Color(0xFFFFE880);
 final chipBackgroundColor = Color(0xFFF6F6F6);

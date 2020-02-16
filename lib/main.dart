@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flight_tickets/theme.dart';
-import 'package:flight_tickets/config.dart';
-import 'package:flight_tickets/screens/home_screen.dart';
+import 'package:airlines_app/theme.dart';
+import 'package:airlines_app/config.dart';
+import 'package:airlines_app/screens/home_screen.dart';
 import 'dart:io';
 
 Future<void> main() async { 
