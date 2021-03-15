@@ -14,7 +14,7 @@ To and from destination needs to be selected and then it can view its further fl
 * Unit tests including code coverage
 * Integration tests
 
-## Firebase
+## Firebase Realtime Data Streaming
 
 
 This repo is using Firebase. Cloud Firestore and Cloud Storage is used to handle CRUD operations over the heroes and to store their images.
@@ -42,7 +42,7 @@ The `flutter run --release` command both builds and installs the Flutter app.
 * Oxygen-Bold.ttf
 * Oxygen-Light.ttf
 
-Can find [here](http://fonts.google.com/)
+Can find [here].(http://fonts.google.com/)
 
 
 ## Bugs and feature requests
